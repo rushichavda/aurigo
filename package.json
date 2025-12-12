@@ -1,0 +1,24 @@
+{
+  "name": "aurigo",
+  "version": "1.0.0",
+  "description": "MVP for EB-1A letter support system",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "keywords": ["eb1a", "immigration", "letter-support"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.15.0",
+    "typescript": "^5.4.5"
+  }
+}

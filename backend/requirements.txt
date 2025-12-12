@@ -1,0 +1,44 @@
+# FastAPI and Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy>=2.0.25
+alembic>=1.13.1
+psycopg2-binary>=2.9.10
+
+# Authentication
+python-jose[cryptography]==3.3.0
+python-dotenv==1.0.0
+
+# LLM Integration
+httpx==0.26.0
+openai==1.10.0
+google-generativeai==0.8.3
+anthropic==0.39.0
+
+# Agent Framework
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-google-genai>=2.0.0
+langchain-anthropic>=0.2.0
+langchain-core>=0.3.0
+
+# Document Processing
+docling>=2.53.0
+docling-core>=2.5.3
+docling-parse>=2.0.2
+pypdf2==3.0.1
+python-docx>=1.1.2
+reportlab==4.0.9
+Pillow==10.4.0
+pytesseract==0.3.13
+
+# Utilities
+pydantic>=2.5.3
+pydantic-settings>=2.3.0
+
+# Streamlit UI
+streamlit>=1.40.0
+watchdog>=3.0.0

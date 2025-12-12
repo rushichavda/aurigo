@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv pip install:*)",
+      "Read(//c/aurigo/src/**)",
+      "Bash(test:*)",
+      "Bash(python -m uvicorn:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
